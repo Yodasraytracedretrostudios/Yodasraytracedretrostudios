@@ -1,0 +1,12 @@
+*G3_Nature_Plant_Herbs_Composit
+*G3_World_Lowpoly
++G3_Weapons_Shields
+*G3_Speedtree
++G3_Architecture_Egg
++G3_Objects_Interact_Alchemy_Table
++G3_Object_Tablestuff
++G3_Objects_Desert_Stuff
++G3_Objects_Items_V
++G3_Objects_Interact_Bed
++G3_AnimalTrophies
++G3_Object_Varant_Sheet

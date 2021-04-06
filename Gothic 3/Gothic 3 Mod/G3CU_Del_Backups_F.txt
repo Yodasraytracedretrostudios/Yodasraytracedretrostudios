@@ -1,0 +1,2 @@
+\thumbs.db
+\g3_hud_slides_39 Kopie.dds

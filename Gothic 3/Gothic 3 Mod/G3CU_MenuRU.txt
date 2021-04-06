@@ -1,0 +1,145 @@
+0*Level0?без сжатия
+1*Level1?Уровень 1 (быстрый тест)
+2*Level2?Уровень 2
+3*Level3?Уровень 3
+4*Level4?Уровень 4
+5*Level5?Уровень 5 (по умолчанию)
+6*Level6?Уровень 6
+7*Level7?Уровень 7 (медленно)
+8*Level8?Уровень 8 (очень медленно)
+9*Level9?Уровень 9 (экстремально медленно)
+10*Tab_PAK?Настройка сжатия
+11*CB_compressUSER?Уровень сжатия
+12*L_USERcompressIF?Не сжимать если:
+13*L_USERfileSize?Размер файла меньше чем байт:
+14*L_USERfileType?Тип файла является одним из:
+15*L_USERcompression?Сжатые данные более:
+16*MenuFile?Файл
+17*MenuExit?Выход
+18*ShowModding?Показать возможности для моддинга
+19*LoadColorSetting?Загрузить настройки цвета иконок
+31*SaveColorSetting?Сохранить настройки цвета иконок
+20*MenuLanguage?Язык
+21*MenuGerman?Deutsch(DE)
+22*MenuEnglish?Английский(EN)
+23*MenuRussian?Русский(RU)
+25*L_Files?Файлы и папки
+26*L_Size?Размер [байт]
+27*MenuHelp?Помощь
+28*MenuAbout?Инфо
+29*MenuCredits?Благодарности (German only)
+30*Tab_Mesh?Оптимизировать Меши
+32*GB_MeshExport?Экспортировать только выбранные свойства
+33*CB_MeshMatch?Исключить при поиске дубликатов:
+34*CB_Mesh00?00: Треугольники
+35*CB_Mesh01?01: Вершины
+36*CB_Mesh03?03: Нормали Векторов
+37*CB_Mesh04?04: Мягкие текстуры границ
+38*CB_Mesh05?05: Специальные детали текстур
+39*CB_Mesh12?12: Координаты текстур
+40*CB_Mesh15?15: Отражения воды
+41*CB_Mesh18?18: неизвестно
+42*CB_Mesh21?21: неизвестно
+43*CB_Mesh24?24: неизвестно
+44*CB_Mesh64?64: Карты нормалей
+45*CB_Mesh72?72: неизвестно
+46*CB_Mesh73?73: Карты освящения
+47*CB_DelVertexDoubles?Удалить сдвоенные вершины
+48*CB_ExportTrailFront?Export trail 1
+49*CB_ExportTrail?Export trail 2  (Light Mapping)
+50*CB_ExportTrailRear?Export trail 3
+51*RB_compatible?Совместимость с AБ и без AБ
+52*RB_AB?Совместимость только с АБ
+53*RB_noAB?Совместимость без АБ
+55*CB_GENOMFLE?GENOM формат
+56*CB_MeshOptimize?Оптимизировать Меши и Карты освящения
+57*CB_MeshVer01to51?Конвертировать версию 01 в 51
+58*GB_MeshVer51?      конвертировать 51 в
+59*Tab_Graphic?Оптимизировать графику
+60*GB_DDS?Меню графика
+61*CB_DDSremoveMipMaps?Удалить Mipmaps, если возможно
+62*CB_DDS_DXT3to1?Конвертировать в DXT1, если возможно
+63*GB_JPG?Оптимизировать JPG
+64*CB_delJPGcomments?Удалить комментарии
+65*CB_DelLightmapFolders?Удалите ненужные записи папок в.xlmp файлах.
+66*CB_DelWorldDatas?Удалить неиспользуемые данные мира.
+67*CB_DelWAW?Удалить коментарии в WAV файлах
+70*GB_XIMG?Оптимизировать текстуры
+71*CB_DXT3toDXT1?Конверт. DXT1, если возможно
+72*RD_maxTexSize?Максимальный размер текстур
+73*CB_XIMGexception?Использовать список исключений
+74*RG_Icon?Оптимизировать иконки (TGA файлы)
+75*CB_TGAremove_comments?Удалить коментарии
+76*RG_TGAcompression?Настройки сжатия TGA
+81*RG_TGAcompression?Сохранить оригинальное сжатие; Принудительное сжатие RLE; Принудительно без сжатия
+77*CB_DTX3removeAlpha?DXT3 принудительное удаление альфа
+78*CB_NormalMapConvert?Конвертировать имена файлов с помощью NORMAL
+79*CB_TGAreplaceAlpha?Заменить цвет прозрачных пикселей
+68*CB_MixColor?Смешать альфа-уровень
+69*CB_SetSolid?Установить сплошной
+80*Tab_Text?Оптимизировать текст
+82*CB_English?Английский
+83*CB_Italian?Итальянский
+84*CB_French?Французский
+85*CB_German?Немецкий
+86*CB_Spanish?Испанский
+87*CB_Czech?Чешский
+88*CB_Hungarian?Венгерский
+89*CB_Polish?Польский
+90*CB_Русский?Русский
+91*CB_TRC?Традиционный китайский
+92*CB_G3res?Оптимизировать ресурсы файлов интерфейса
+93*GB_Language?      Оставить только эти языки:
+94*CB_DelGestures?Удалить жесты
+95*GB_DelStrings?Удалить Строки:
+96*CB_S_TestQuestCPT?CPT тестовые квесты (118)
+97*CB_S_StoryHelper?Мистер помощь(SH) (153)
+98*CB_S_JumpAttack?Атака в прыжке (79)
+99*CB_S_FOITEMDESC?Неиспользуемые назв. в предметах(9)
+100*RussianCharset?Русские символы
+101*CB_StringBin?Заменить stringtable.bin
+102*Tab_Del?Удалить опции
+103*CB_DelTemplates?Удалить неиспользуемые шаблоны
+104*CB_DelSpecial?Резервные файлы
+105*CB_DelContent?Использовать список удаления контента. Внимание, см. Руководство!
+106*CB_DelBinString?Удалить stringtable.bin Внимание, см. Руководство!
+107*CB_DelBinWorld?Удалить compiledinfos_G3_World_01.bin Внимание, см. Руководство!
+108*CB_DelNodeFolders?Удалите ненужные записи папок в .node файлах.
+109*CB_DelXSHMatFolders?Удалите ненужные записи папок в .xshmat файлах.
+110*CB_F_TestQuestCPT?CPT тестовые квесты (55)
+111*CB_F_StoryHelper?Мистер помощь(SH)(365)
+112*CB_F_JumpAttack?Атака в прыжке(154)
+113*CB_F_Defect?Поврежденные файлы (2)
+114*GB_DelFiles?Удалить файлы
+115*Tab_main?Главная
+116*B_Gothic3path?Выбрать папку Data в Г3
+117*B_WorkPath?Выбрать папку для распаковки
+118*L_UnKnown?все остальное
+119*CB_autoZIP?Авто. выбор сжатия
+120*B_automatic?В автоматическом режиме
+121*B_decompress?Распаковать
+122*B_optimize?Оптимизировать
+123*B_compress?Запаковать
+124*GB_ZIPoptions?Настройки сжатия
+125*CB_F_OldMaterials?Старые неиспользованные файлы материалов
+130*Tab_Icon?Иконки
+131*RG_ResizeTGA?Размер
+132*L_IconSizeTGA?TGA размер x * y
+133*L_IconBorderTGA?Границы лево * верх
+134*L_ResizeTGA?Размер иконок x * y
+135*L_SamplesPerPixel?sample per pixel (всего          )
+136*L_TGAblur?Размытие
+137*CB_PrintName?Отобразить имя файла
+138*L_Contrast?Контраст
+139*L_Brithness?Яркость
+140*L_Gamma?Гамма
+141*GB_ApplyRimLight?       Apply Rim Light
+142*L_RimIntesity?Интенсивн.
+143*L_RimDistanceFactor?Модификат.
+144*L_RimRadius?Радиус
+145*L_RimXoffset?Сместить X
+146*L_RimYoffset?Сместить Y
+147*L_RimBackGround?Цвет фона
+150*OffTopic?Другое
+151*Menu_TabIcon?Вкладки иконки
+152*Menu_Web?Веб

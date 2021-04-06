@@ -1,0 +1,9 @@
+FO_It_Book_01
+FO_It_Key_01
+FO_It_Plant_Stamina
+FO_It_Potion_Fire
+FO_It_Recipe_Fire_1
+FO_It_Recipe_Fire_2
+ITEMDESC_It_Key_01
+ITEMDESC_It_Recipe_Fire_1
+ITEMDESC_It_Recipe_Fire_2

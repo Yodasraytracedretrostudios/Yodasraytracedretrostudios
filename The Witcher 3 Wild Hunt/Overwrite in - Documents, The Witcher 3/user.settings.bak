@@ -107,7 +107,7 @@ AllowClothSimulationOnGpu=false
 InventoryBgColorScaleB=0.036
 InventoryFixedLuminance=0.25
 InventoryBgColorScaleG=0.034
-MovieFramerate=30
+MovieFramerate=60
 GammaValue=1
 InventoryBgColorScaleR=0.02
 [Rendering]

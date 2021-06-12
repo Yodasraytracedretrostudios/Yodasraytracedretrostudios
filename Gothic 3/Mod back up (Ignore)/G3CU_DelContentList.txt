@@ -1,0 +1,13 @@
+::: Delete E3 Demo boarder
+G3_Special_DemoBorder_01_A.xshmat
+Editor_G3_Object_DemoSign_E3_01.tple
+G3_World_Border_Demo_01_SpG.lrgeo
+G3_World_Border_Demo_01_SpG.lrgeodat
+G3_World_Border_Demo_01_SpG.node
+G3_World_Demo_Border_01.lrent
+G3_World_Demo_Border_01.lrentdat
+G3_World_Demo_Border_01.sec
+G3_World_Demo_Border_01.secdat
+G3_World_Demo_Border_01_Spat.lrgeo
+G3_World_Demo_Border_01_Spat.lrgeodat
+G3_World_Demo_Border_01_Spat.node

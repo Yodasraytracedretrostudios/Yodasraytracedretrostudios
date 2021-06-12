@@ -1,0 +1,145 @@
+0*Level0?no compression
+1*Level1?Level 1 (fastest)
+2*Level2?Level 2
+3*Level3?Level 3
+4*Level4?Level 4
+5*Level5?Level 5 (default)
+6*Level6?Level 6
+7*Level7?Level 7 (slow)
+8*Level8?Level 8 (very slow)
+9*Level9?Level 9 (extremely slow)
+10*Tab_PAK?PAK settings
+11*CB_compressUSER?Compression level
+12*L_USERcompressIF?Do not compress if:
+13*L_USERfileSize?File size is less than (Bytes):
+14*L_USERfileType?File type is one of:
+15*L_USERcompression?Compressed data is more than:
+16*MenuFile?File
+17*MenuExit?Exit
+18*ShowModding?Show Modding Features
+19*LoadColorSetting?Load Icon Color Settings
+31*SaveColorSetting?Save Icon Color Settings
+20*MenuLanguage?Language
+21*MenuGerman?Deutsch
+22*MenuEnglish?English
+23*MenuRussian?Russian
+25*L_Files?Files and folder
+26*L_Size?Size [bytes]
+27*MenuHelp?Help
+28*MenuAbout?Info
+29*MenuCredits?Credits (German only)
+30*Tab_Mesh?Tweak mesh
+32*GB_MeshExport?Export selected properties only
+33*CB_MeshMatch?Exclude during search for duplicates
+34*CB_Mesh00?00: Triangles
+35*CB_Mesh01?01: Vertex
+36*CB_Mesh03?03: Normal Vectors
+37*CB_Mesh04?04: Soft Texture Borders
+38*CB_Mesh05?05: Special detail textures
+39*CB_Mesh12?12: Texture Coordinates
+40*CB_Mesh15?15: Water Reflections
+41*CB_Mesh18?18: unknown
+42*CB_Mesh21?21: unknown
+43*CB_Mesh24?24: unknown
+44*CB_Mesh64?64: Bump Mapping
+45*CB_Mesh72?72: unknown
+46*CB_Mesh73?73: Light Mapping
+47*CB_DelVertexDoubles?Delete Vertex doubles
+48*CB_ExportTrailFront?Export trail 1
+49*CB_ExportTrail?Export trail 2  (Light Mapping)
+50*CB_ExportTrailRear?Export trail 3
+51*RB_compatible?Compatible to AB and without AB
+52*RB_AB?Compatible only with AB
+53*RB_noAB?Compatible only without AB
+55*CB_GENOMFLE?GENOM format
+56*CB_MeshOptimize?Tweak Meshes and Lightmaps
+57*CB_MeshVer01to51?Convert version 01 to 51
+58*GB_MeshVer51?      Convert version 51 to
+59*Tab_Graphic?Tweak Graphics
+60*GB_DDS?Menu graphics
+61*CB_DDSremoveMipMaps?Delete Mipmaps, if possible
+62*CB_DDS_DXT3to1?Convert to DXT1, if possible
+63*GB_JPG?Tweak JPG
+64*CB_delJPGcomments?Delete comments
+65*CB_DelLightmapFolders?Delete unnecessary folder entries in .xlmp files.
+66*CB_DelWorldDatas?Delete unused world data.
+67*CB_DelWAW?Delete comments in WAV files
+70*GB_XIMG?Tweak textures
+71*CB_DXT3toDXT1?Convert to DXT1, if possible
+72*RD_maxTexSize?Maximum texture size
+73*CB_XIMGexception?Consider exception list
+74*RG_Icon?Tweak icons (TGA files)
+75*CB_TGAremove_comments?Delete comments
+76*RG_TGAcompression?TGA compression settings
+81*RG_TGAcompression?Keep original compression;force RLE compression;force no compression
+77*CB_DTX3removeAlpha?DXT3 force removing of alpha
+78*CB_NormalMapConvert?Convert filenames with NORMAL
+79*CB_TGAreplaceAlpha?Replace color of transparent pixels
+68*CB_MixColor?Mix alpha level
+69*CB_SetSolid?Set solid
+80*Tab_Text?Tweak text
+82*CB_English?English
+83*CB_Italian?Italian
+84*CB_French?French
+85*CB_German?Deutsch
+86*CB_Spanish?Spanish
+87*CB_Czech?Czech
+88*CB_Hungarian?Hungarian
+89*CB_Polish?Polish
+90*CB_Russian?Russian
+91*CB_TRC?Traditional Chinese
+92*CB_G3res?Tweak gui resource file
+93*GB_Language?      Keep only selected languages:
+94*CB_DelGestures?Delete gestures
+95*GB_DelStrings?Delete Strings
+96*CB_S_TestQuestCPT?CPT test quests (118)
+97*CB_S_StoryHelper?Story helper (153)
+98*CB_S_JumpAttack?Jump attack (79)
+99*CB_S_FOITEMDESC?Unused item names (9)
+100*RussianCharset?Russian Charset
+101*CB_StringBin?Replace stringtable.bin
+102*Tab_Del?Delete Options
+103*CB_DelTemplates?Delete unused templates
+104*CB_DelSpecial?Backup files
+105*CB_DelContent?Use content delete list. Warning, see manual!
+106*CB_DelBinString?Delete stringtable.bin Warning, see manual!
+107*CB_DelBinWorld?Delete compiledinfos_G3_World_01.bin Warning, see manual!
+108*CB_DelNodeFolders?Delete unnecessary folder entries in .node files.
+109*CB_DelXSHMatFolders?Delete unnecessary folder entries in .xshmat files.
+110*CB_F_TestQuestCPT?CPT test quests (55)
+111*CB_F_StoryHelper?Story Helper (365)
+112*CB_F_JumpAttack?Jump attack (154)
+113*CB_F_Defect?Corrupt files (2)
+114*GB_DelFiles?Delete files
+115*Tab_main?General
+116*B_Gothic3path?Pick G3 data folder
+117*B_WorkPath?Pick empty work folder
+118*L_UnKnown?Everything else
+119*CB_autoZIP?Auto-ZIP adjustment for
+120*B_automatic?Machine-aided
+121*B_decompress?Decompress
+122*B_optimize?Tweak
+123*B_compress?Compress
+124*GB_ZIPoptions?ZIP compress settings
+125*CB_F_OldMaterials?Alte ungenutzte Material Dateien
+130*Tab_Icon?Icon
+131*RG_ResizeTGA?Resize
+132*L_IconSizeTGA?TGA size x * y
+133*L_IconBorderTGA?Border left * top
+134*L_ResizeTGA?Icon size x * y
+135*L_SamplesPerPixel?sample per pixel (total          )
+136*L_TGAblur?Bluring
+137*CB_PrintName?Print File Name
+138*L_Contrast?Contrast
+139*L_Brithness?Brithness
+140*L_Gamma?Gamma
+141*GB_ApplyRimLight?       Apply Rim Light
+142*L_RimIntesity?Intesity
+143*L_RimDistanceFactor?Modificator
+144*L_RimRadius?Radius
+145*L_RimXoffset?X Offset
+146*L_RimYoffset?Y Offset
+147*L_RimBackGround?BG Color
+150*OffTopic?Off Topic
+151*Menu_TabIcon?Icon Tab
+152*Menu_Web?Web

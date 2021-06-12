@@ -1,0 +1,145 @@
+0*Level0?Keine Komprimierung
+1*Level1?Stufe 1 (am schnellsten)
+2*Level2?Stufe 2
+3*Level3?Stufe 3
+4*Level4?Stufe 4
+5*Level5?Stufe 5 (default)
+6*Level6?Stufe 6
+7*Level7?Stufe 7 (langsam)
+8*Level8?Stufe 8 (sehr langsam)
+9*Level9?Stufe 9 (extrem langsam)
+10*Tab_PAK?PAK Einstellungen
+11*CB_compressUSER?Komprimierungsstufe
+12*L_USERcompressIF?Nicht komprimieren wenn:
+13*L_USERfileSize?Dateigröße kleiner als (Bytes):
+14*L_USERfileType?Dateityp ist einer von:
+15*L_USERcompression?Komprimierte Daten sind mehr als:
+16*MenuFile?Datei
+17*MenuExit?Beenden
+18*ShowModding?Show Modding Features
+19*LoadColorSetting?Load Icon Color Settings
+31*SaveColorSetting?Save Icon Color Settings
+20*MenuLanguage?Language
+21*MenuGerman?German
+22*MenuEnglish?English
+23*MenuRussian?Russian
+25*L_Files?Dateien und Ordner
+26*L_Size?Größe [Bytes]
+27*MenuHelp?Hilfe
+28*MenuAbout?Info
+29*MenuCredits?Danksagung (Credits)
+30*Tab_Mesh?Mesh Optimierung
+32*GB_MeshExport?zu exportierende Mesh Eigenschaften
+33*CB_MeshMatch?Beim Suchen Doppelter Eckpunkte ignorieren
+34*CB_Mesh00?00: Dreiecke
+35*CB_Mesh01?01: Eckpunkte
+36*CB_Mesh03?03: Normal Vektoren
+37*CB_Mesh04?04: weiche Texturübergänge
+38*CB_Mesh05?05: spezielle Detailtexturen
+39*CB_Mesh12?12: Texturkoordinaten
+40*CB_Mesh15?15: Wasserspiegelungen
+41*CB_Mesh18?18: unbekannt
+42*CB_Mesh21?21: unbekannt
+43*CB_Mesh24?24: unbekannt
+44*CB_Mesh64?64: Bump Mapping
+45*CB_Mesh72?72: unbekannt
+46*CB_Mesh73?73: Light Mapping
+47*CB_DelVertexDoubles?Doppelte Eckpunkte löschen
+48*CB_ExportTrailFront?Anhang 1 exportieren
+49*CB_ExportTrail?Anhang 2 exportieren (Light Mapping)
+50*CB_ExportTrailRear?Anhang 3 exportieren
+51*RB_compatible?Kompatibel mit AB und ohne AB
+52*RB_AB?kompatibel nur mit AB
+53*RB_noAB?kompatibel nur ohne AB
+55*CB_GENOMFLE?GENOM Format
+56*CB_MeshOptimize?Meshes und Lightmaps Optimieren
+57*CB_MeshVer01to51?Konvertiere Version 01 zu 51
+58*GB_MeshVer51?      Konvertiere Version 51 zu
+59*Tab_Graphic?Grafik Optimierung
+60*GB_DDS?Menügrafik
+61*CB_DDSremoveMipMaps?Mipmaps löschen, falls vorhanden
+62*CB_DDS_DXT3to1?zu DXT1 wandeln, wenn möglich
+63*GB_JPG?JPG Optimierung  
+64*CB_delJPGcomments?Kommentare löschen
+65*CB_DelLightmapFolders?Nicht notwenige Verzeichnisangaben in .xlmp Dateien löschen.
+66*CB_DelWorldDatas?Nicht genutzte Weltdaten löschen.
+67*CB_DelWAW?Kommentare in WAV Dateien löschen.
+70*GB_XIMG?Texturen
+71*CB_DXT3toDXT1?zu DXT1 wandeln, wenn möglich
+72*RD_maxTexSize?maximale Texturengröße
+73*CB_XIMGexception?Ausnahmeliste berücksichtigen
+74*GB_Icon?Icon Optimierung (TGA Dateien)
+75*CB_TGAremove_comments?Kommentare löschen
+76*RG_TGAcompression?TGA Komprimierungseinstellung
+81*RG_TGAcompression?keep original compression;force RLE compression;force no compression
+77*CB_DTX3removeAlpha?DXT3 force removing of alpha
+78*CB_NormalMapConvert?convert filenames with NORMAL
+79*CB_TGAreplaceAlpha?replace color of transparent pixels
+68*CB_MixColor?mix alpha level
+69*CB_SetSolid?set solid
+80*Tab_Text?Text Optimierung
+82*CB_English?Englisch
+83*CB_Italian?Italian
+84*CB_French?French
+85*CB_German?Deutsch
+86*CB_Spanish?Spanish
+87*CB_Czech?Czech
+88*CB_Hungarian?Hungarian
+89*CB_Polish?Polish
+90*CB_Russian?Russian
+91*CB_TRC?traditionelles Chinesisch
+92*CB_G3res?gui Resource Datei optimieren
+93*GB_Language?      nur markierte Sprachen behalten
+94*CB_DelGestures?Gesten löschen
+95*GB_DelStrings?Strings löschen
+96*CB_S_TestQuestCPT?CPT Testquests (118)
+97*CB_S_StoryHelper?Storyhelper (153)
+98*CB_S_JumpAttack?JumpAttack (79)
+99*CB_S_FOITEMDESC?ungenutzte Gegenstandsnamen (9)
+100*RussianCharset?Russian Charset
+101*CB_StringBin?ersetze stringtable.bin
+102*Tab_Del?Löschoptionen
+103*CB_DelTemplates?Nicht genutzte Templates löschen.
+104*CB_DelSpecial?Backup Dateien
+105*CB_DelContent?Inhalte Löschliste nutzen. Achtung, siehe Handbuch!
+106*CB_DelBinString?Lösche stringtable.bin Achtung, siehe Handbuch!
+107*CB_DelBinWorld?Lösche compiledinfos_G3_World_01.bin Achtung, siehe Handbuch!
+108*CB_DelNodeFolders?Nicht notwenige Verzeichnisangaben in .node Dateien löschen.
+109*CB_DelXSHMatFolders?Nicht notwenige Verzeichnisangaben in .xshmat Dateien löschen.
+110*CB_F_TestQuestCPT?CPT Testquests (55)
+111*CB_F_StoryHelper?Storyhelper (365)
+112*CB_F_JumpAttack?JumpAttack (154)
+113*CB_F_Defect?Beschädigte Dateien (2)
+114*GB_DelFiles?Dateien löschen
+115*Tab_main?Einstellungen
+116*B_Gothic3path?Wähle G3 Data Verzeichnis
+117*B_WorkPath?Wähle leeres Arbeitsverzeichnis
+118*L_UnKnown?sonstige
+119*CB_autoZIP?Auto ZIP Einstellung für
+120*B_automatic?automatisch
+121*B_decompress?dekomprimieren
+122*B_optimize?Optimieren
+123*B_compress?komprimieren
+124*GB_ZIPoptions?ZIP Komprimierungseinstellungen
+125*CB_F_OldMaterials?alte ungenutzte Material Dateien
+130*Tab_Icon?Icon
+131*RG_ResizeTGA?Resize
+132*L_IconSizeTGA?TGA size x * y
+133*L_IconBorderTGA?Border left * top
+134*L_ResizeTGA?Icon size x * y
+135*L_SamplesPerPixel?sample per pixel (total          )
+136*L_TGAblur?Bluring
+137*CB_PrintName?Print File Name
+138*L_Contrast?Contrast
+139*L_Brithness?Brithness
+140*L_Gamma?Gamma
+141*GB_ApplyRimLight?       Apply Rim Light
+142*L_RimIntesity?Intesity
+143*L_RimDistanceFactor?Modificator
+144*L_RimRadius?Radius
+145*L_RimXoffset?X Offset
+146*L_RimYoffset?Y Offset
+147*L_RimBackGround?BG Color
+150*OffTopic?Off Topic
+151*Menu_TabIcon?Icon Tab
+152*Menu_Web?Web

@@ -1,0 +1,53 @@
+German
+G3 Clean Up V0.95alpha (2020-04-08) by MadFaTal
+Danksagung Credits
+Danke an alle Tutorial Ersteller im WorldOfGothic Forum
+
+Spezieller Dank an:
+- |Lorn|, fьr viele Tips wie, wo, was in den Gothic III Daten abgeht
+- NicoDE, fьr die XIMG Analysen und den G3PakDir Source Code
+- Knighter, dem erstern Beta Tester
+- DeepBlue23, dem zweiten Beta Tester
+- ZixZax, fьr die optimale Test Modifikation Consequences 2.0
+- Piranha Bytes
+- Brent Sherwood http://www.base2ti.com  for Delphi zLib 1.2.8
+- _Cloud][XXL_ fьr Hinweise zur englischen Ьbersetzung
+- George fьr die Hilfe bei den Meshes
+- BilboBeutlin fьr einige nette Anregungen
+- err0r32 fьr die russische Ьbersetzung
+
+English
+G3 Clean Up V0.95alpha (2020-04-08) by MadFaTal
+Credits
+Thanks to all tutorial creators in the WorldOfGothic forum
+
+Special thanks to:
+- |Lorn|, for many tips such as where, what is going on in the Gothic III data
+- NicoDE, for the XIMG analyzes and the G3PakDir source code
+- Knighter, the first beta tester
+- DeepBlue23, the second beta tester
+- ZixZax, for the optimal test modification Consequences 2.0
+- Piranha Bytes
+- Brent Sherwood http://www.base2ti.com for Delphi zLib 1.2.8
+- _Cloud][XXL_ for information on English translation
+- George for help with the Meshes
+- BilboBeutlin for some nice suggestions
+- Err0r32 for Russian translation
+
+Russian
+G3 Clean Up V0.95alpha (2020-04-08) автор MadFaTal
+Благодарности людям, внесшим свой вклад.
+Спасибо всем создателям туториалов на форуме WorldOfGothic
+
+Особая благодарность:
+- |Lorn|, дал многих советов, таких как, где, что происходит в данных Готики 3
+- NicoDE, для анализа XIMG и исходного кода G3PakDir
+- Knighter, первый бета-тестер
+- DeepBlue23, второй бета-тестер
+- ZixZax, для оптимальной теста модификации Последствия 2.0
+- Piranha Bytes
+- Брент Шервуд http://www.base2ti.com для Delphi zLib 1.2.8
+- _Cloud][XXL_ для информации о переводе на английский язык
+- George за помощь с Мешами
+- BilboBeutlin за несколько хороших предложений
+- Err0r32 за перевод на русский язык

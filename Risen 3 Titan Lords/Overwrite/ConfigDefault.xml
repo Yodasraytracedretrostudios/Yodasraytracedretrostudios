@@ -1,0 +1,318 @@
+<global>
+  <Engine>
+    <Debug TestMode="true" ObserveMemory="Audio" MemoryCorruptionMonitor="false" LoggingVerbosity="5" LogFilterLevel="normal" IgnoreDrawCalls="false" DisplayEntities="false">
+      <Snapshots Prefix="Snapshot_" MaxSnapshots="150">
+      </Snapshots>
+      <Resolutions Test7="1280x1024xWindow" Test6="1280x720xWindow" Test5="1280x960xWindow" Test4="1024x576xWindow" Test3="1024x768xWindow" Test2="960x540xWindow" Test1="800x600xWindow">
+      </Resolutions>
+    </Debug>
+    <GUI>
+      <Aspect4x3 VirtalWidth="1440" VirtalHeight="1080" EnableDrawScale="True">
+      </Aspect4x3>
+      <Aspect16x9 VirtalWidth="1920" VirtalHeight="1080" EnableDrawScale="True">
+      </Aspect16x9>
+      <Aspect16x10 VirtalWidth="1728" VirtalHeight="1080" EnableDrawScale="True">
+      </Aspect16x10>
+      <Aspect5x4 VirtalWidth="1350" VirtalHeight="1080" EnableDrawScale="True">
+      </Aspect5x4>
+      <Aspect5x3 VirtalWidth="1800" VirtalHeight="1080" EnableDrawScale="True">
+      </Aspect5x3>
+    </GUI>
+    <Window Top="0" SafetyFramePercentage="0.0" Right="1024" RefreshRate="0" Name="Risen 3 - Titan Lords" Left="0" FullScreen="false" FPSLimitToRefreshRate="true" FPSLimit="0" Center="false" CaptureCursor="true" Bottom="768" AdapterNumber="0">
+    </Window>
+    <Profiler YellowAlert="5.0" UpdateInterval="1000" SortMode="2" RedAlert="20.0" RecursionDepth="1" PeakAlert="0.0" MaxNodesPerLevel="20" LogToFile="false" HideBelow="1.0" FrameQueueLength="64">
+    </Profiler>
+    <FPU UnderflowExceptionsEnabled="false" OverflowExceptionsEnabled="false" InvalidExceptionsEnabled="false" DivByZeroExceptionsEnabled="false" DenormalExceptionsEnabled="false">
+    </FPU>
+    <Timer MinFPS="10.00" MaxFPS="144.00" FixedFPS="-1.00" AverageFPS="60.00">
+    </Timer>
+    <Render zNear="25.00" zFarMedium="120000.00" zFarLow="60000.00" zFarHigh="240000.00" zBias="0.050" ViewDistance="3" VegetationRenderingEnabled="true" TerrainGenericMaterial="TR_Generic_Test._xmap" ScreenObjectDistanceCulling="0.008" RenderDebug="false" PostProcessingEnabled="true" MeshLoDFactor="1.000000" SkinnedLoDFactor="1.000000" ClothLoDFactor="1.000000" MSAA="0" FoV="75.000000" OccluderSmallObjectThreshold="0.5" OccluderFarClip="10000" SmallObjectThreshold="0.02f" SmallObjectFadeRange="0.02f" ReflectionsSmallObjectThreshold="0.2f" ReflectionsSmallObjectFadeRange="0.1f">
+      <Shader Quality="2" EnableMaterialFallbacks="true" EnableErrorMaterial="true" CurrentShaderVersion="3_0">
+      </Shader>
+      <PostProcessing EdgeAA="true" DefaultEffect="DoF">
+      </PostProcessing>
+      <OceanWater OceanWaterLevel="0.000000" OceanMaterial="WT_Ocean_1._xmat" EnableReflections="true">
+      </OceanWater>
+      <Shadows Quality="High" EnableStrips="true">
+        <Off TerrainShadowMapSize="512" TerrainShadowMapMaxDistance="40000.0" SoftShadows="false" SSAOQuality="0" StaticTerrainShadows="false" EnableShadows="false" DetailShadowMapViewRange="3500.000000" DetailShadowMapSplitFactor="0.65000" DetailShadowMapSize="512" DetailShadowMapCount="2">
+        </Off>
+        <Low TerrainShadowMapSize="512" TerrainShadowMapMaxDistance="80000.0" SoftShadows="false" SSAOQuality="0" StaticTerrainShadows="true" EnableShadows="true" DetailShadowMapViewRange="7500.0" DetailShadowMapSplitFactor="0.3" DetailShadowMapSize="512" DetailShadowMapCount="4" PerspectiveShadows="false" SmallObjectThreshold="0.100000" SmallObjectFadeRange="0.050000" ShadowDepthBias="2.0" FogShadows="false">
+        </Low>
+        <Medium TerrainShadowMapSize="512" TerrainShadowMapMaxDistance="30000.0" SoftShadows="false" SSAOQuality="0" StaticTerrainShadows="true" EnableShadows="true" DetailShadowMapViewRange="10000.0" DetailShadowMapSplitFactor="0.2" DetailShadowMapSize="512" DetailShadowMapCount="3" PerspectiveShadows="false" SmallObjectThreshold="0.100000" SmallObjectFadeRange="0.050000" ShadowDepthBias="2.0" FogShadows="false">
+        </Medium>
+        <High TerrainShadowMapSize="1024" TerrainShadowMapMaxDistance="40000.0" SoftShadows="true" SSAOQuality="0" StaticTerrainShadows="true" EnableShadows="true" DetailShadowMapViewRange="15000.0" DetailShadowMapSplitFactor="0.1" DetailShadowMapSize="2048" DetailShadowMapCount="4" PerspectiveShadows="false" SmallObjectThreshold="0.100000" SmallObjectFadeRange="0.050000" ShadowDepthBias="2.0" FogShadows="true">
+        </High>
+        <Ultra TerrainShadowMapSize="2048" TerrainShadowMapMaxDistance="80000.0" SoftShadows="true" SSAOQuality="0" StaticTerrainShadows="true" EnableShadows="true" DetailShadowMapViewRange="20000.0" DetailShadowMapSplitFactor="0.08" DetailShadowMapSize="2048" DetailShadowMapCount="4" PerspectiveShadows="false" SmallObjectThreshold="0.100000" SmallObjectFadeRange="0.050000" ShadowDepthBias="2.0" FogShadows="true">
+        </Ultra>
+      </Shadows>
+    </Render>
+    <Terrain Quality="High">
+      <Low ViewRange="4800.0" OcclusionViewRange="1300.0" MinLevel="1" OcclusionMinLevel="0" VirtualTextureLoDLevel="3" MorphRatio="1.1">
+      </Low>
+      <Medium ViewRange="4800.0" OcclusionViewRange="3800.0" MinLevel="1" OcclusionMinLevel="0" VirtualTextureLoDLevel="3" MorphRatio="0.9">
+      </Medium>
+      <High ViewRange="25600.0" OcclusionViewRange="3600.0" MinLevel="1" OcclusionMinLevel="0" VirtualTextureLoDLevel="2" MorphRatio="0.7">
+      </High>
+    </Terrain>
+    <SpeedTree LoDFactor="1.0">
+    </SpeedTree>
+    <Input>
+      <Mouse SensitivityY="1.0f" SensitivityX="1.0f" InvertYMiniGames="false" InvertY="false" InvertXMiniGames="false" InvertX="false" ForceNumLockDisabled="true">
+      </Mouse>
+      <Gamepad GamepadVibration="true">
+      </Gamepad>
+    </Input>
+    <Audio WorldSize="200000" UseHardwareSounds="true" SpeakerMode="2" SoftwareOcclusion="true" Reverb="true" OcclusionGeometry="true" MaxChannels="200" LowPassFilter="true" Encoder="ADPCM" EncodeFileMaxSizeKB="250" EnableProfiling="false" DisableAudio="false">
+      <Volume Speech="255" Music="150" Master="255" Effect="255" Ambient="255">
+      </Volume>
+    </Audio>
+    <Graphics VSync="false" TextureFilterMode="4">
+      <Mixer GammaRed="0.000000" GammaGreen="0.000000" GammaBlue="0.000000" Contrast="0.000000" Brightness="0.000000">
+      </Mixer>
+    </Graphics>
+    <Cache Preset="High">
+      <Image>
+        <Levels>
+          <Low _Water="Low" _VFX="Low" _Terrain="Low" _Speedtree="Low" _Special="Low" _Sky="Low" _Objects="Low" _LoDImg="High" _Items="Low" _GUI="Low" _Editor="Low" _Decals="Low" _Brushes="Low" _Animation="Low">
+          </Low>
+          <Medium _Water="Medium" _VFX="Medium" _Terrain="Medium" _Speedtree="Medium" _Special="Medium" _Sky="Medium" _Objects="Medium" _LoDImg="High" _Items="Medium" _GUI="Medium" _Editor="Medium" _Decals="Medium" _Brushes="Medium" _Animation="Medium">
+          </Medium>
+          <High _Water="High" _VFX="High" _Terrain="High" _Speedtree="High" _Special="High" _Sky="High" _Objects="High" _LoDImg="High" _Items="High" _GUI="High" _Editor="High" _Decals="High" _Brushes="High" _Animation="High">
+          </High>
+        </Levels>
+      </Image>
+      <Presets>
+        <Image>
+          <High SoftLimit="655360000" SoftLimit64="3355443200">
+          </High>
+          <Medium SoftLimit="209715200" SoftLimit64="1073741824">
+          </Medium>
+          <Low SoftLimit="125829120" SoftLimit64="536870912">
+          </Low>
+        </Image>
+        <LightProbe>
+          <High SoftLimit="8388608" SoftLimit64="16777216">
+          </High>
+          <Medium SoftLimit="8388608" SoftLimit64="8388608">
+          </Medium>
+          <Low SoftLimit="8388608" SoftLimit64="8388608">
+          </Low>
+        </LightProbe>
+        <Material>
+          <High SoftLimit="0" SoftLimit64="0">
+          </High>
+          <Medium SoftLimit="0" SoftLimit64="0">
+          </Medium>
+          <Low SoftLimit="0" SoftLimit64="0">
+          </Low>
+        </Material>
+        <Mesh>
+          <High SoftLimit="49152000" SoftLimit64="171966464">
+          </High>
+          <Medium SoftLimit="31457280" SoftLimit64="67108864">
+          </Medium>
+          <Low SoftLimit="31457280" SoftLimit64="31457280">
+          </Low>
+        </Mesh>
+        <MotionAnimation>
+          <High SoftLimit="20971520" SoftLimit64="20971520">
+          </High>
+          <Medium SoftLimit="20971520" SoftLimit64="62914560">
+          </Medium>
+          <Low SoftLimit="20971520" SoftLimit64="31457280">
+          </Low>
+        </MotionAnimation>
+        <MotionNetworkDef>
+          <High SoftLimit="20971520" SoftLimit64="20971520">
+          </High>
+          <Medium SoftLimit="20971520" SoftLimit64="62914560">
+          </Medium>
+          <Low SoftLimit="20971520" SoftLimit64="31457280">
+          </Low>
+        </MotionNetworkDef>
+        <MotionSkin>
+          <High SoftLimit="52428800" SoftLimit64="134217728">
+          </High>
+          <Medium SoftLimit="52428800" SoftLimit64="67108864">
+          </Medium>
+          <Low SoftLimit="52428800" SoftLimit64="52428800">
+          </Low>
+        </MotionSkin>
+        <Sound>
+          <High SoftLimit="62914560" SoftLimit64="134217728">
+          </High>
+          <Medium SoftLimit="62914560" SoftLimit64="67108864">
+          </Medium>
+          <Low SoftLimit="62914560" SoftLimit64="41943040">
+          </Low>
+        </Sound>
+        <CollisionMesh>
+          <High SoftLimit="14680064" SoftLimit64="31457280">
+          </High>
+          <Medium SoftLimit="14680064" SoftLimit64="14680064">
+          </Medium>
+          <Low SoftLimit="14680064" SoftLimit64="14680064">
+          </Low>
+        </CollisionMesh>
+        <SpeedTree>
+          <High SoftLimit="21048576" SoftLimit64="52428800">
+          </High>
+          <Medium SoftLimit="21048576" SoftLimit64="26214400">
+          </Medium>
+          <Low SoftLimit="21048576" SoftLimit64="21048576">
+          </Low>
+        </SpeedTree>
+        <Shader>
+          <High SoftLimit="0" HardLimit="0">
+          </High>
+          <Medium SoftLimit="0" HardLimit="0">
+          </Medium>
+          <Low SoftLimit="0" HardLimit="0">
+          </Low>
+        </Shader>
+        <Font>
+          <High SoftLimit="4891200" SoftLimit64="4891200">
+          </High>
+          <Medium SoftLimit="4891200" SoftLimit64="4891200">
+          </Medium>
+          <Low SoftLimit="4891200" SoftLimit64="4891200">
+          </Low>
+        </Font>
+        <SpeedTreeWind>
+          <High SoftLimit="612000" SoftLimit64="612000">
+          </High>
+          <Medium SoftLimit="612000" SoftLimit64="612000">
+          </Medium>
+          <Low SoftLimit="612000" SoftLimit64="612000">
+          </Low>
+        </SpeedTreeWind>
+        <BlendShape>
+          <High SoftLimit="26214400" SoftLimit64="52428800">
+          </High>
+          <Medium SoftLimit="26214400" SoftLimit64="26214400">
+          </Medium>
+          <Low SoftLimit="26214400" SoftLimit64="26214400">
+          </Low>
+        </BlendShape>
+        <BlendAnimation>
+          <High SoftLimit="52428800" SoftLimit64="134217728">
+          </High>
+          <Medium SoftLimit="52428800" SoftLimit64="52428800">
+          </Medium>
+          <Low SoftLimit="52428800" SoftLimit64="52428800">
+          </Low>
+        </BlendAnimation>
+        <Dialog>
+          <High SoftLimit="26214400" SoftLimit64="52428800">
+          </High>
+          <Medium SoftLimit="26214400" SoftLimit64="26214400">
+          </Medium>
+          <Low SoftLimit="26214400" SoftLimit64="26214400">
+          </Low>
+        </Dialog>
+        <ClothMesh>
+          <High SoftLimit="10485760" SoftLimit64="20971520">
+          </High>
+          <Medium SoftLimit="10485760" SoftLimit64="10485760">
+          </Medium>
+          <Low SoftLimit="10485760" SoftLimit64="10485760">
+          </Low>
+        </ClothMesh>
+        <Destructible>
+          <High SoftLimit="26214400" SoftLimit64="52428800">
+          </High>
+          <Medium SoftLimit="26214400" SoftLimit64="52428800">
+          </Medium>
+          <Low SoftLimit="26214400" SoftLimit64="26214400">
+          </Low>
+        </Destructible>
+        <Terrain>
+          <High SoftLimit="7340032" SoftLimit64="16777216">
+          </High>
+          <Medium SoftLimit="7340032" SoftLimit64="7340032">
+          </Medium>
+          <Low SoftLimit="7340032" SoftLimit64="7340032">
+          </Low>
+        </Terrain>
+      </Presets>
+    </Cache>
+    <Vegetation ConsoleVegetationDensity="2" WindWaveSpeed="1.5" WindFactor="10.0" WindBendWeight="0.002" WindBase="24.0" Quality="High">
+      <Off ViewRange="1500.000000" Enabled="False" Density="8">
+      </Off>
+      <Low ViewRange="1500.000000" Enabled="True" Density="5">
+      </Low>
+      <Medium ViewRange="5500.000000" Enabled="True" Density="3">
+      </Medium>
+      <High ViewRange="9500.000000" Enabled="True" Density="2">
+      </High>
+      <Ultra ViewRange="37000.000000" Enabled="True" Density="1">
+      </Ultra>
+    </Vegetation>
+    <Scene ViewRangeQuality="Medium" TemplateLoading="1" ProcessEntitiesEnabled="true">
+      <Low LoDFactor="2.0" Item_Small="2000.0" Item_Medium="3500.0" Item_Large="5000.0" NPC_Small="2000.0" NPC_Medium="4000.0" NPC_Large="6000.0" Level_Small="5000.0" Level_Medium="12500.0" Level_Large="20000.0" Object_Small="4000.0" Object_Medium="8000.0" Object_Large="12000.0" SpeedTree_Small="5000.0" SpeedTree_Medium="10000.0" SpeedTree_Large="15000.0" Events_Small="3000.0" Events_Medium="4500.0" Events_Large="8000.0" Effects_Small="2000.0" Effects_Medium="5000.0" Effects_Large="8000.0" Lights="4000.0" Terrain="100000.0">
+      </Low>
+      <Medium LoDFactor="4.0" Item_Small="3000.0" Item_Medium="4500.0" Item_Large="6000.0" NPC_Small="2000.0" NPC_Medium="4000.0" NPC_Large="6000.0" Level_Small="10000.0" Level_Medium="20000.0" Level_Large="30000.0" Object_Small="6000.0" Object_Medium="10000.0" Object_Large="15000.0" SpeedTree_Small="7500.0" SpeedTree_Medium="15000.0" SpeedTree_Large="22500.0" Events_Small="4500.0" Events_Medium="6000.0" Events_Large="9500.0" Effects_Small="3000.0" Effects_Medium="7500.0" Effects_Large="12000.0" Lights="7000.0" Terrain="100000.0">
+      </Medium>
+      <High LoDFactor="8.0" Item_Small="4000.0" Item_Medium="6000.0" Item_Large="8000.0" NPC_Small="2000.0" NPC_Medium="4000.0" NPC_Large="6000.0" Level_Small="20000.0" Level_Medium="35000.0" Level_Large="50000.0" Object_Small="10000.0" Object_Medium="15000.0" Object_Large="20000.0" SpeedTree_Small="10000.0" SpeedTree_Medium="20000.0" SpeedTree_Large="30000.0" Events_Small="6000.0" Events_Medium="7500.0" Events_Large="11000.0" Effects_Small="5000.0" Effects_Medium="10000.0" Effects_Large="15000.0" Lights="10000.0" Terrain="100000.0">
+      </High>
+      <Ultra LoDFactor="2" Item_Small="17500.0" Item_Medium="30000.0" Item_Large="40000.0" NPC_Small="4000.0" NPC_Medium="6000.0" NPC_Large="8000.0" Level_Small="22500.0" Level_Medium="50000.0" Level_Large="80000.0" Object_Small="30000.0" Object_Medium="45000.0" Object_Large="75000.0" SpeedTree_Small="37000.0" SpeedTree_Medium="61666.0" SpeedTree_Large="98666.0" Events_Small="7500.0" Events_Medium="9000.0" Events_Large="12500.0" Effects_Small="7500.0" Effects_Medium="12500.0" Effects_Large="20000.0" Lights="15000.0" Terrain="100000.0">
+      </Ultra>
+    </Scene>
+    <Physics Disabled="false">
+    </Physics>
+    <Weather SunAngle="30.000000" MoonAngle="200.000000">
+    </Weather>
+  </Engine>
+  <Game DLC1="true" DLC2="true" DLC3="true" UserPageMode="8" TutorialDisabled="false" ShowSubtitles="false" ShowFocusNames="true" ShowFocusHighlights="true" RetroQuestMessageSystem="false" PlayerStart="SP_Gamestart" MenuDisabled="false" MeleeSlomoCam="true" InvertMouseY="false" IgnoreUserOptions="false" HoldWalkButton="false" HoldSprintButton="true" HoldSneakButton="false" EnableTutorialSystem="true" Difficulty="1" AutoSave="true" SectorQuality="High">
+    <BuyOrDie>
+      <German URL="http://www.risen2.com/de/dark-waters/" TimeOut="0" Screen="Screen_German.png" BuyButton="495;385;692;473">
+      </German>
+    </BuyOrDie>
+    <Controls>
+      <DebugKeys OnDebug_ToggleHUD="CTRL_L+H" OnDebug_ChangeResolution="CTRL_L+F2" OnDebugToggleVegetation="CTRL_L+V" OnDebugToggleUnevenTerrain="CTRL_L+U" OnDebugToggleTimeFreeze="PAUSE" OnDebugToggleStatistics="ALT_L+H" OnDebugToggleStateGraphInfos="CTRL_L+G" OnDebugToggleSpeedUp="F8" OnDebugToggleSpeedTree="CTRL_L+T" OnDebugToggleSloMo="F6" OnDebugToggleSkinnedMeshLoD="CTRL_L+AE" OnDebugToggleShakyCam="NUM_4" OnDebugToggleScreenMessages="CTRL_L+M" OnDebugToggleRenderPortal="ALT_L+P" OnDebugToggleRenderMode="F3" OnDebugToggleRenderer="CTRL_R+N" OnDebugToggleRandomAni="CTRL_L+R" OnDebugTogglePhysicsWireframe="CTRL_L+2" OnDebugTogglePhysicsSpeedTrees="CTRL_L+7" OnDebugTogglePhysicsShapes="CTRL_L+4" OnDebugTogglePhysicsRenderDebug="CTRL_L+Q" OnDebugTogglePhysicsOpaque="CTRL_L+1" OnDebugTogglePhysicsNativeIgnoreZ="SHIFT_R+Q" OnDebugTogglePhysicsNativeDebug="SHIFT_L+Q" OnDebugTogglePhysicsMeshes="CTRL_L+5" OnDebugTogglePhysicsMaterials="CTRL_L+3" OnDebugTogglePhysicsControllers="CTRL_L+6" OnDebugToggleOcclusionCulling="ALT_L+O" OnDebugToggleShadowMapOcclusion="ALT_L+I" OnDebugToggleNavigation="CTRL_L+N" OnDebugToggleMovementDebug="ALT_L+M" OnDebugToggleMorphemeLiveLink="ALT_L+L" OnDebugToggleMeleeCounterParadeOnParade="NUM_2" OnDebugToggleMeleeCounterParadeOnAttack="NUM_1" OnDebugToggleMeleeCounterAttack="NUM_3" OnDebugToggleLevitate="CTRL_L+L" OnDebugToggleFullscreen="F2" OnDebugToggleFreeFlyCam="CTRL_L+INSERT" OnDebugToggleFixedCam="CTRL_L+HOME" OnDebugToggleEntityInfos="CTRL_L+E" OnDebugToggleControlEnabled="F11" OnDebugToggleCloth="CTRL_L+OE" OnDebugToggleCBufferDebug="CTRL_L+O" OnDebugToggleBoundingBoxes="CTRL_L+B" OnDebugToggleAudioEmitter="ALT_L+D" OnDebugToggleSpeedTreeDebug="CTRL_L+NUM_7" OnDebugTakeSnapshot="F1" OnDebugSaySVM="ALT_L+S" OnDebugResetWithLift="CTRL_L+F8" OnDebugResetPlayer="F7" OnDebugQuitApplication="F12" OnDebugMovePlayerToCamera="CTRL_L+PAGE_UP" OnDebugEndCutscene="ALT_L+E" OnDebugDoNullPointerAccess="ALT_R+F12" OnDebugCycleIndicators="F4" OnDebugControlFocusEntity="CTRL_L+F" OnDebugConnectPhysXDebugger="CTRL_L+P" OnDebugCameraFlightStop="ALT_L+W" OnDebugCameraFlightStart="ALT_L+Q" OnDebugCameraFlightPoseStart="ALT_L+Y" OnDebugCameraFlightPoseRendering="ALT_L+R" OnDebugCameraFlightPoseForward="ALT_L+C" OnDebugCameraFlightPoseEnd="ALT_L+V" OnDebugCameraFlightPoseBack="ALT_L+X" OnDebugCameraFlightAdd="ALT_L+A" OnDebugBeamForward="CTRL_L+K" OnDebugAutoWalkToggle="ALT_L+T" OnDebugAnimationSkeleton="CTRL_L+UE" OnDebugAnimationToggleTransformCalculation="CTRL_L+NUM_9" OnDebugActionKill="ALT_L+K" OnDebugActionDown="CTRL_L+X" OnDebugToggleDragPointsDebug="CTRL_R+D" OnDebugToggleFloatsDebug="CTRL_R+F" OnDebugToggleDepthProbesDebug="CTRL_R+P" OnDebugToggleForceRelaxedProcessing="SHIFT_L+R" OnDebugTogglePathDebug="CTRL_R+T">
+      </DebugKeys>
+    </Controls>
+    <Navigation EnableInternalMovement="false">
+    </Navigation>
+    <WorldMenuEntries>
+      <World World="World" Args="">
+      </World>
+      <TestLevel World="TestLevel" Args="">
+      </TestLevel>
+      <ShowCase World="ShowCase" Args="">
+      </ShowCase>
+      <Prototype World="Prototype" Args="">
+      </Prototype>
+      <DialogTagger World="DialogTagger" Args="">
+      </DialogTagger>
+    </WorldMenuEntries>
+    <Language VoiceLanguage="English" SubtitleLanguage="English" ForceSubtitles="true" CompleteLocTable="false">
+    </Language>
+    <Workspace ScriptFolder="Scripts" ScriptAutoLoading="true" SaveGamesFolder="Save" Name="Data" BackupFolder="Backup">
+    </Workspace>
+    <Camera RelaxYAxis="15.000000" RelaxXAxis="8.000000" RelaxPlayer="2.000000" RelaxFoV="25.000000" RelaxDistFuturePos="1.000000" RelaxDist="60.000000" RelaxCamera="10.000000" OcclusionScanFutureTime="0.300000" MoveSpeed="100.000000" MoveDeccelerator="0.300000" MoveAccelerator="50.000000" MaxDistToPlayer="500.000000" Keep1stPerson="false" ElevSpeedScale="0.070000" AziSpeedScale="0.100000">
+    </Camera>
+    <Benchmark RunBenchmarkOnHardwareChange="true" MediumTrianglesPerSec="250000000" MediumPixelsPerSec="300000000" LowestPixelsPerSec="120000000" LowTrianglesPerSec="100000000" LowPixelsPerSec="200000000" BenchmarkLastVendorID="0" BenchmarkLastDeviceID="0">
+    </Benchmark>
+    <Autodetection MediumSMLimit="512" MediumMemoryLimit="750000000" ID_NVIDIA="4318" ID_ATI="4098" HighSMLimit="768" HighMemoryLimit="1000000000" DetectionDone="false">
+      <NVIDIA>
+        <Low Entry_97="844" Entry_96="840" Entry_95="839" Entry_94="847" Entry_93="846" Entry_92="837" Entry_91="836" Entry_90="835" Entry_89="834" Entry_88="833" Entry_87="831" Entry_86="824" Entry_85="820" Entry_84="819" Entry_83="818" Entry_82="817" Entry_81="816" Entry_80="815" Entry_79="813" Entry_78="812" Entry_77="811" Entry_76="810" Entry_75="808" Entry_74="807" Entry_73="806" Entry_72="805" Entry_71="804" Entry_70="803" Entry_69="802" Entry_68="801" Entry_67="800" Entry_66="796" Entry_65="795" Entry_64="794" Entry_63="788" Entry_62="787" Entry_61="786" Entry_60="785" Entry_59="777" Entry_58="776" Entry_57="770" Entry_56="769" Entry_55="578" Entry_54="577" Entry_53="576" Entry_52="366" Entry_51="362" Entry_50="361" Entry_49="359" Entry_48="357" Entry_47="356" Entry_46="355" Entry_45="354" Entry_44="353" Entry_43="352" Entry_42="335" Entry_41="334" Entry_40="333" Entry_39="332" Entry_38="331" Entry_37="330" Entry_36="328" Entry_35="327" Entry_34="325" Entry_33="324" Entry_32="323" Entry_31="322" Entry_30="321" Entry_29="320" Entry_28="252" Entry_27="251" Entry_26="250" Entry_25="243" Entry_24="242" Entry_23="241" Entry_22="206" Entry_21="205" Entry_20="204" Entry_19="195" Entry_18="194" Entry_17="193" Entry_16="192" Entry_15="157" Entry_14="149" Entry_13="147" Entry_12="146" Entry_11="145" Entry_10="144" Entry_09="78" Entry_08="72" Entry_07="71" Entry_06="70" Entry_05="69" Entry_04="68" Entry_03="67" Entry_02="66" Entry_01="65" Entry_00="64">
+        </Low>
+        <Medium Entry_86="2127" Entry_85="2125" Entry_84="2124" Entry_83="2123" Entry_82="2122" Entry_81="2121" Entry_80="2120" Entry_79="2021" Entry_78="2019" Entry_77="2018" Entry_76="2017" Entry_75="2016" Entry_74="1785" Entry_73="1764" Entry_72="1763" Entry_71="1762" Entry_70="1761" Entry_69="1760" Entry_68="1604" Entry_67="1603" Entry_66="1602" Entry_65="1601" Entry_64="1600" Entry_63="1571" Entry_62="1570" Entry_61="1342" Entry_60="1339" Entry_59="1338" Entry_58="1071" Entry_57="1068" Entry_56="1060" Entry_55="1059" Entry_54="1058" Entry_53="1057" Entry_52="1056" Entry_51="1039" Entry_50="1038" Entry_49="1034" Entry_48="1030" Entry_47="1028" Entry_46="1027" Entry_45="1026" Entry_44="1025" Entry_43="1024" Entry_42="981" Entry_41="978" Entry_40="977" Entry_39="976" Entry_38="926" Entry_37="917" Entry_36="916" Entry_35="915" Entry_34="914" Entry_33="913" Entry_32="912" Entry_31="740" Entry_30="739" Entry_29="738" Entry_28="737" Entry_27="736" Entry_26="671" Entry_25="670" Entry_24="669" Entry_23="668" Entry_22="661" Entry_21="660" Entry_20="659" Entry_19="658" Entry_18="657" Entry_17="656" Entry_16="581" Entry_15="578" Entry_14="577" Entry_13="576" Entry_12="546" Entry_11="545" Entry_10="536" Entry_09="533" Entry_08="530" Entry_07="529" Entry_06="479" Entry_05="478" Entry_04="477" Entry_03="475" Entry_02="467" Entry_01="465" Entry_00="464">
+        </Medium>
+      </NVIDIA>
+      <ATI>
+        <Low Entry_31="30772" Entry_30="23876" Entry_29="23651" Entry_28="23649" Entry_27="23408" Entry_26="23392" Entry_25="22884" Entry_24="22882" Entry_23="22881" Entry_22="22880" Entry_21="22850" Entry_20="22849" Entry_19="22848" Entry_18="22581" Entry_17="21601" Entry_16="21600" Entry_15="20813" Entry_14="20054" Entry_13="20050" Entry_12="20048" Entry_11="19567" Entry_10="19559" Entry_09="19558" Entry_08="18799" Entry_07="18798" Entry_06="18790" Entry_05="18791" Entry_04="16745" Entry_03="16740" Entry_02="16713" Entry_01="16708" Entry_00="12626">
+        </Low>
+        <Medium Entry_61="38420" Entry_60="38418" Entry_59="38416" Entry_58="38342" Entry_57="38341" Entry_56="38336" Entry_55="38296" Entry_54="38295" Entry_53="38294" Entry_52="38282" Entry_51="38281" Entry_50="38280" Entry_49="38279" Entry_48="38278" Entry_47="38223" Entry_46="38208" Entry_45="38151" Entry_44="38149" Entry_43="38145" Entry_42="38092" Entry_41="38087" Entry_40="38086" Entry_39="38084" Entry_38="38083" Entry_37="38081" Entry_36="38040" Entry_35="38037" Entry_34="38032" Entry_33="38031" Entry_32="38023" Entry_31="38419" Entry_30="38417" Entry_29="37964" Entry_28="37984" Entry_27="37966" Entry_26="37954" Entry_25="37952" Entry_24="37893" Entry_23="37888" Entry_22="29062" Entry_21="29069" Entry_20="28997" Entry_19="29068" Entry_18="29067" Entry_17="29078" Entry_16="29001" Entry_15="29003" Entry_14="29004" Entry_13="29002" Entry_12="29091" Entry_11="29095" Entry_10="29037" Entry_09="29088" Entry_08="29063" Entry_07="29059" Entry_06="28994" Entry_05="29056" Entry_04="29005" Entry_03="29022" Entry_02="29006" Entry_01="28998" Entry_00="28992">
+        </Medium>
+      </ATI>
+    </Autodetection>
+  </Game>
+  <Editor>
+    <Visualization>
+      <DummyMeshes Enabled="false">
+      </DummyMeshes>
+    </Visualization>
+  </Editor>
+</global>
